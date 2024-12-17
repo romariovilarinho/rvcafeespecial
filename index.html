@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RV Cafés Especiais - Inspirado by Empório Chá e Café</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>RV Cafés Especiais</h1>
+            <p>Inspirado by Empório Chá e Café</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="products">
+            <h2>Nossos Cafés</h2>
+            <div class="product" data-name="Café Fazenda Borá" data-price="55.00">
+                <img src="img/cafe1.jpg" alt="Café Fazenda Borá" class="product-image">
+                <h3>Café Fazenda Borá</h3>
+                <p>Região: Mantiqueira de Minas | Notas: Jabuticaba, cereja, chocolate e nozes</p>
+                <p><strong>500g - R$ 55,00</strong></p>
+                <input type="number" class="quantity" min="1" value="1">
+                <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product" data-name="Café Cerrado Mineiro" data-price="55.00">
+                <img src="img/cafe2.jpg" alt="Café Cerrado Mineiro" class="product-image">
+                <h3>Café Cerrado Mineiro</h3>
+                <p>Notas de chocolate, caramelo e melaço.</p>
+                <p><strong>500g - R$ 55,00</strong></p>
+                <input type="number" class="quantity" min="1" value="1">
+                <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product" data-name="Café Fazenda Preciosa" data-price="55.00">
+                <img src="img/cafe3.jpg" alt="Café Fazenda Preciosa" class="product-image">
+                <h3>Café Fazenda Preciosa</h3>
+                <p>Região: Chapada Diamantina | Notas: Limão galego, rapadura e frutas cítricas.</p>
+                <p><strong>500g - R$ 55,00</strong></p>
+                <input type="number" class="quantity" min="1" value="1">
+                <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+        </section>
+
+        <section class="cart">
+            <h2>Seu Carrinho</h2>
+            <ul id="cart-items"></ul>
+            <p id="cart-total">Total: R$ 0,00</p>
+            <button id="checkout" class="btn">Finalizar Compra</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 RV Cafés Especiais. Inspirado by Empório Chá e Café.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

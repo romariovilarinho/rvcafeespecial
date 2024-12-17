@@ -1,0 +1,70 @@
+/* Estilos Globais */
+body {
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+    background-color: #F7F4ED;
+    color: #315353;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Lora', serif;
+    color: #7F4625;
+}
+
+header, footer {
+    background-color: #7F4625;
+    color: #F7F4ED;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.container {
+    height: 50%;
+    width: 50%;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.products, .cart {
+    margin: 2rem 0;
+}
+
+.product, .cart {
+    background: #FFFFFF;
+    border: 1px solid #7F4625;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.product h3, .cart h2 {
+    margin-bottom: 0.5rem;
+}
+
+.btn {
+    background-color: #315353;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #7F4625;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.product-image {
+    width: 25%;
+    height: auto;
+}
